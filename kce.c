@@ -1928,7 +1928,6 @@ void editorDrawRows(struct abuf *ab) {
               int clen = snprintf(buf, sizeof(buf), "%s", color);
               abAppend(ab, buf, clen);
             }
-            
           }
           abAppend(ab, &c[j], 1);
         }
